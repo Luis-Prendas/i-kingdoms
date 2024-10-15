@@ -1,12 +1,12 @@
 {
-  "name": "Hello, World!",
+  "name": "test context",
   "version": "1.0.0",
   "manifest_version": 1,
   "action": {
-    "title": "Hello, World!",
+    "title": "test context",
     "icon": "/icon.svg",
     "popover": "/",
     "height": 600,
-    "width": 400
+    "width": 1200
   }
 }
