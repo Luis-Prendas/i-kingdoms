@@ -1,0 +1,180 @@
+{
+  "login": {
+    "title": "Iniciar sesión",
+    "description": "Usa tu cuenta para iniciar sesión.",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  "register": {
+    "title": "Registrarse",
+    "description": "Crea tu cuenta para iniciar sesión.",
+    "username": "Nombre de usuario",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "register": "Registrarse"
+  },
+  "home": {
+    "logout": "Cerrar sesión",
+    "rooms": {
+      "title": "Crear una sala",
+      "roomName": "Nombre de la sala",
+      "description": "Descripción",
+      "limit": "Límite",
+      "create": "Crear"
+    }
+  },
+  "sheet": {
+    "newCharacterSheet": "Nueva Hoja de Personaje",
+    "by": "Por",
+    "save": "Guardar",
+    "successSaveMessage": "La hoja se guardó exitosamente.",
+    "characterSheet": "Hoja de personaje",
+    "characterName": "Nombre del personaje",
+    "characterDescription": "Descripción del personaje",
+    "armorClass": "Clase de armadura",
+    "initiative": "Iniciativa",
+    "hitPoints": "Puntos de golpe",
+    "tempHitPoints": "Puntos de golpe temporales",
+    "level": "Nivel",
+    "stats": {
+      "abreviation": {
+        "STRENGTH": "FUE",
+        "DEXTERITY": "DES",
+        "CONSTITUTION": "CON",
+        "INTELLIGENCE": "INT",
+        "WISDOM": "SAB",
+        "CHARISMA": "CAR"
+      },
+      "stats": "Estadísticas",
+      "STRENGTH": "Fuerza",
+      "DEXTERITY": "Destreza",
+      "CONSTITUTION": "Constitución",
+      "INTELLIGENCE": "Inteligencia",
+      "WISDOM": "Sabiduría",
+      "CHARISMA": "Carisma"
+    },
+    "savingsThorows": {
+      "abreviation": {
+        "STRENGTH": "Fue",
+        "DEXTERITY": "Des",
+        "CONSTITUTION": "Con",
+        "INTELLIGENCE": "Int",
+        "WISDOM": "Sab",
+        "CHARISMA": "Car"
+      },
+      "savingsThorows": "Tiradas de salvación",
+      "STRENGTH": "Fuerza",
+      "DEXTERITY": "Destreza",
+      "CONSTITUTION": "Constitución",
+      "INTELLIGENCE": "Inteligencia",
+      "WISDOM": "Sabiduría",
+      "CHARISMA": "Carisma"
+    },
+    "details": {
+      "size": "Tamaño",
+      "speed": "Velocidad",
+      "senses": "Sentidos",
+      "languages": "Idiomas",
+      "passivePerception": "Percepción pasiva",
+      "proficiencyBonus": "Bonificación por competencia"
+    },
+    "race": {
+      "race": "Raza",
+      "draconid": "Dracónido",
+      "elf": "Elfo",
+      "dwarf": "Enano",
+      "gnome": "Gnomo",
+      "human": "Humano",
+      "halfling": "Mediano",
+      "halfOrc": "Medio orco",
+      "halfElf": "Medio elfo",
+      "tiefling": "Tiefling"
+    },
+    "class": {
+      "class": "Clase",
+      "artificer": "Artífice",
+      "barbarian": "Bárbaro",
+      "bard": "Bardo",
+      "cleric": "Clérigo",
+      "druid": "Druida",
+      "fighter": "Guerrero",
+      "monk": "Monje",
+      "paladin": "Paladín",
+      "ranger": "Guardabosques",
+      "rogue": "Pícaro",
+      "sorcerer": "Hechicero",
+      "warlock": "Brujo",
+      "wizard": "Mago"
+    },
+    "skills": {
+      "skills": "Habilidades",
+      "ATHLETICS": "Atletismo",
+      "ACROBATICS": "Acrobacias",
+      "SLEIGHT_OF_HAND": "Juego de manos",
+      "STEALTH": "Sigilo",
+      "ARCANA": "Arcanos",
+      "HISTORY": "Historia",
+      "INVESTIGATION": "Investigación",
+      "NATURE": "Naturaleza",
+      "RELIGION": "Religión",
+      "ANIMAL_HANDLING": "Trato con animales",
+      "INSIGHT": "Perspicacia",
+      "MEDICINE": "Medicina",
+      "PERCEPTION": "Percepción",
+      "SURVIVAL": "Supervivencia",
+      "DECEPTION": "Engaño",
+      "INTIMIDATION": "Intimidación",
+      "PERSUASION": "Persuasión",
+      "PERFORMANCE": "Actuación"
+    },
+    "tabs": {
+      "inventory": {
+        "inventory": "Inventario",
+        "cuantity": "Cantidad",
+        "name": "Nombre",
+        "weight": "Peso",
+        "objType": {
+          "ARMOR": "Armadura"
+        }
+      }
+    }
+  },
+  "languageSwitcher": {
+    "title": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "genericErrorMessage": {
+    "sommetingWentWrong": "¡Oh no! Algo salió mal."
+  },
+  "genericSuccessMessage": {
+    "success": "¡Éxito!",
+    "theRoomWasCreated": "la sala fue creada exitosamente."
+  },
+  "sidebar": {
+    "generalInformation": {
+      "generalInformation": "Información general",
+      "introduction": "Introducción",
+      "regionOfPourtas": "Región de Pourtas"
+    }
+  },
+  "tabs": {
+    "main": "Principal",
+    "inventory": "Inventario"
+  },
+  "createSheet": {
+    "required": "Requerido",
+    "race": "Raza",
+    "selectRace": "Seleccionar raza",
+    "customRace": "Raza personalizada",
+    "nameOfRace": "Nombre de la raza",
+    "class": "Clase",
+    "selectClass": "Seleccionar clase",
+    "customClass": "Clase personalizada",
+    "nameOfClass": "Nombre de la clase",
+    "name": "Nombre",
+    "description": "Descripción"
+  }
+}
