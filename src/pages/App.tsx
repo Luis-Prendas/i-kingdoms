@@ -1,22 +1,15 @@
-import { SignedIn, SignedOut, SignInButton, UserButton, useSession } from '@clerk/clerk-react'
+import { Link } from 'react-router-dom'
 
 export default function App() {
-  const { isLoaded } = useSession()
-
-  if (!isLoaded) {
-    return <p>Loading...</p>
-  }
-
   return (
     <main className='w-full h-full flex justify-center items-center'>
-      <header>
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-      </header>
+      <section className='bg-card rounded p-2'>
+        <ul className='flex flex-col gap-2'>
+          <li>
+            <Link to='/create'>Create Sheet</Link>
+          </li>
+        </ul>
+      </section>
     </main>
   )
 }

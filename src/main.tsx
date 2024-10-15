@@ -4,6 +4,8 @@ import { createRoot } from 'react-dom/client'
 import App from './pages/App'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { ClerkProvider } from '@clerk/clerk-react'
+import SessionProvider from './components/providers/session-provider'
+import CreatePage from './pages/create/create'
 
 // Import your publishable key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -18,16 +20,18 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/about',
-    element: <div>About</div>,
+    path: '/create',
+    element: <CreatePage />,
   }
 ])
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div className='bg-background w-full h-screen'>
+    <div className='bg-background text-primary w-full h-screen flex justify-center items-center'>
       <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl='/'>
-        <RouterProvider router={router} />
+        <SessionProvider>
+          <RouterProvider router={router} />
+        </SessionProvider>
       </ClerkProvider>
     </div>
   </StrictMode>,
